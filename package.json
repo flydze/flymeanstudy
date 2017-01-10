@@ -1,0 +1,22 @@
+{
+  "name": "flymeanstudy",
+  "version": "1.0.0",
+  "description": "Human resources application to learn MEAN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flydze/flymeanstudy.git"
+  },
+  "author": "Valentyn Zozulia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flydze/flymeanstudy/issues"
+  },
+  "homepage": "https://github.com/flydze/flymeanstudy#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
