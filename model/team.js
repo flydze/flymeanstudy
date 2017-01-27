@@ -20,7 +20,7 @@ function _attachMembers(Employee, result, callback) {
       return callback(error);
     }
 
-    result.members = emplyees;
+    result.members = employees;
     callback(null, result);
   });
 }

@@ -4,8 +4,9 @@
   "description": "Human resources application to learn MEAN stack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "populate": "node ./bin/populate_db"
+    "populate": "node ./bin/populate_db",
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,13 @@
   "homepage": "https://github.com/flydze/flymeanstudy#readme",
   "dependencies": {
     "async": "^2.1.4",
-    "colors": "^1.1.2",
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
     "mongoose": "^4.7.8",
-    "mongoose-post-find": "0.0.2"
+    "mongoose-post-find": "0.0.2",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.2"
   }
 }
